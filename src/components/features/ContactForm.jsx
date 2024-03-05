@@ -25,19 +25,12 @@ export const ContactForm = () => {
 		// Proceed with form submission
 		emailjs
 			.sendForm(
-				"service_fy7zz61",
-				"template_02cueqo",
+				import.meta.env.EMAILJS_SERVICE_ID,
+				import.meta.env.EMAILJS_TEMPLATE_ID,
 				form.current,
 				{
-					publicKey: "_0zm5DtBf0o0TfSDY",
+					publicKey: import.meta.env.EMAILJS_PUBLIC_KEY,
 				}
-				//! PROD:
-				// import.meta.env.EMAILJS_SERVICE_ID,
-				// import.meta.env.EMAILJS_TEMPLATE_ID,
-				// form.current,
-				// {
-				// 	publicKey: import.meta.env.EMAILJS_PUBLIC_KEY,
-				// }
 			)
 			.then(
 				() => {
