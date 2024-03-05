@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-
+import { useNavigate } from "react-router-dom";
 import { RxHamburgerMenu, RxCross2 } from "react-icons/rx";
 import { FaGithub, FaLinkedin } from "react-icons/fa6";
 import { CiFileOn } from "react-icons/ci";
@@ -8,6 +8,7 @@ import * as styles from "./Navbar.css";
 import { ContactForm } from "../../features/ContactForm";
 
 const Navbar = () => {
+	const navigate = useNavigate();
 	const [openNavigation, setOpenNavigation] = useState(false);
 
 	const openNavBar = () => {
@@ -16,6 +17,10 @@ const Navbar = () => {
 
 	const closeNavBar = () => {
 		setOpenNavigation(false);
+	};
+
+	const navigateTo = (route) => {
+		navigate(route);
 	};
 
 	return (
@@ -89,9 +94,11 @@ const Navbar = () => {
 							</div>
 						</div>
 						<div>
-							<a href="/contact">
-								<h2 className={styles.navScreenLink}>CONTACT</h2>
-							</a>
+							<h2
+								className={styles.navScreenLink}
+								onClick={() => navigateTo("contact")}>
+								CONTACT
+							</h2>
 							<div className={styles.projectLinks}>
 								<h3>ts.polites@gmail.com</h3>
 								<h3>+61 0423 776 594</h3>
