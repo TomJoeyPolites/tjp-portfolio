@@ -29,7 +29,7 @@ export const ContactForm = () => {
 				`${import.meta.env.EMAILJS_TEMPLATE_ID}`,
 				form.current,
 				{
-					publicKey: `${import.meta.env.EMAILJS_PUBLIC_KEY}`,
+					publicKey: import.meta.env.EMAILJS_PUBLIC_KEY,
 				}
 			)
 			.then(
