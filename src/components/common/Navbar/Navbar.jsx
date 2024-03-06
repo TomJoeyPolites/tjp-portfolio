@@ -20,6 +20,7 @@ const Navbar = () => {
 	};
 
 	const navigateTo = (route) => {
+		setOpenNavigation(false);
 		navigate(route);
 	};
 
