@@ -4,6 +4,7 @@ import * as styles from "./About.css";
 
 import profile from "../assets/profileLeft.jpg";
 const About = () => {
+	console.log("About Page");
 	return (
 		<div>
 			<div className={styles.topSection}>
