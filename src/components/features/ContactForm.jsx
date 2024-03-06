@@ -25,8 +25,8 @@ export const ContactForm = () => {
 		// Proceed with form submission
 		emailjs
 			.sendForm(
-				`${import.meta.env.EMAILJS_SERVICE_ID}`,
-				`${import.meta.env.EMAILJS_TEMPLATE_ID}`,
+				import.meta.env.EMAILJS_SERVICE_ID,
+				import.meta.env.EMAILJS_TEMPLATE_ID,
 				form.current,
 				{
 					publicKey: "_0zm5DtBf0o0TfSDY",
