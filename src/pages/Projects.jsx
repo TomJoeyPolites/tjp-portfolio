@@ -2,9 +2,9 @@ import React from "react";
 
 import * as styles from "./Projects.css";
 
-import vivid from "../assets/vivid.png";
-import tmp from "../assets/tmp.png";
-import allyoucan from "../assets/allyoucan.png";
+import vivid from "../assets/vivid.webp";
+import tmp from "../assets/tmp.webp";
+import allyoucan from "../assets/allyoucan.webp";
 
 import {
 	FaHtml5,

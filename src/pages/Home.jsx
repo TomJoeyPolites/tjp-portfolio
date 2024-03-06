@@ -2,7 +2,7 @@ import React from "react";
 
 import * as style from "./Home.css";
 
-import logo from "../assets/logo.jpg";
+import logo from "../assets/logo.webp";
 
 const Home = () => {
 	return (

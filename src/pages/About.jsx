@@ -2,7 +2,7 @@ import React from "react";
 
 import * as styles from "./About.css";
 
-import profile from "../assets/profileLeft.jpg";
+import profile from "../assets/profileLeft.webp";
 const About = () => {
 	console.log("About Page");
 	return (

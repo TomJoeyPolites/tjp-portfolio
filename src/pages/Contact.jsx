@@ -1,7 +1,7 @@
 import React from "react";
 import { ContactForm } from "../components/features/ContactForm";
 
-import profile from "../assets/profileLeft.jpg";
+import profile from "../assets/profileLeft.webp";
 
 import * as styles from "./Contact.css";
 
