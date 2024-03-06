@@ -28,11 +28,6 @@ const Layout = () => {
 				setPageNum("01");
 				setHeading("A LITTLE ABOUT ME");
 				break;
-			// case "/skills":
-			// 	setRightArrowLink("projects");
-			// 	setLeftArrowLink("about");
-			// 	setPageNum("02");
-			// 	break;
 			case "/projects":
 				setRightArrowLink("contact");
 				setLeftArrowLink("about");

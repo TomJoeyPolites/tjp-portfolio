@@ -61,14 +61,18 @@ const Navbar = () => {
 				<div className={styles.navigation}>
 					<div className={styles.navScreen}>
 						<div>
-							<a href="/about">
-								<h2 className={styles.navScreenLink}>ABOUT</h2>
-							</a>
+							<h2
+								className={styles.navScreenLink}
+								onClick={() => navigateTo("about")}>
+								ABOUT
+							</h2>
 						</div>
 						<div>
-							<a href="/projects">
-								<h2 className={styles.navScreenLink}>PROJECTS</h2>
-							</a>
+							<h2
+								className={styles.navScreenLink}
+								onClick={() => navigateTo("projects")}>
+								PROJECTS
+							</h2>
 							<div className={styles.projectLinks}>
 								<a
 									target="_blank"
