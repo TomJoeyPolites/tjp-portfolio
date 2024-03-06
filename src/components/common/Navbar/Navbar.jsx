@@ -47,13 +47,21 @@ const Navbar = () => {
 						target="_blank"
 						rel="noreferrer"
 						href="https://github.com/TomJoeyPolites">
-						<FaGithub className={styles.icon} size="45" alt="github link" />
+						<FaGithub
+							className={styles.icon}
+							size="45"
+							aria-label="github link"
+						/>
 					</a>
 					<a
 						target="_blank"
 						rel="noreferrer"
 						href="https://www.linkedin.com/in/tom-polites-418318156/">
-						<FaLinkedin className={styles.icon} size="45" alt="linkedIn link" />
+						<FaLinkedin
+							className={styles.icon}
+							size="45"
+							aria-label="linkedIn link"
+						/>
 					</a>
 					<CiFileOn className={styles.icon} size="45" />
 				</div>
