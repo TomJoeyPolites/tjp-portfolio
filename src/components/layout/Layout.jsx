@@ -8,7 +8,6 @@ import * as style from "./Layout.css";
 const Layout = () => {
 	const navigate = useNavigate();
 	let location = useLocation();
-	console.log(location.pathname);
 	const [rightArrowLink, setRightArrowLink] = useState("");
 	const [leftArrowLink, setLeftArrowLink] = useState("");
 	const [pageNum, setPageNum] = useState("");

@@ -64,7 +64,7 @@ const Navbar = () => {
 						<div>
 							<h2
 								className={styles.navScreenLink}
-								onClick={() => navigateTo("/about")}>
+								onClick={() => navigateTo("about")}>
 								ABOUT
 							</h2>
 						</div>
