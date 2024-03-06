@@ -11,27 +11,16 @@ import {
 	FaCss3Alt,
 	FaWordpress,
 	FaNodeJs,
-	FaAws,
 	FaReact,
 	FaPhp,
 } from "react-icons/fa";
-import {
-	SiSass,
-	SiNextdotjs,
-	SiApollographql,
-	SiMongodb,
-	SiExpress,
-	SiPhp,
-} from "react-icons/si";
+import { SiExpress } from "react-icons/si";
 import { RiJavascriptFill } from "react-icons/ri";
-import { BiLogoTypescript, BiLogoPhp } from "react-icons/bi";
 import { IoLogoFirebase } from "react-icons/io5";
-import { GrGraphQl } from "react-icons/gr";
 
 const Projects = () => {
 	return (
 		<div>
-			{/* <h2>PROJECTS</h2> */}
 			<div className={styles.gallery}>
 				<a
 					target="_blank"
