@@ -5,7 +5,7 @@ export const gallery = style({
   display: "grid",
   gridTemplateColumns: "1fr 1fr 1fr",
   gap: "4em",
-  padding: "10vh 0 0 0",
+  padding: "5% 0 0 5%",
   alignItems: "centre",
   '@media': {
     'screen and (max-width: 1320px)': {
