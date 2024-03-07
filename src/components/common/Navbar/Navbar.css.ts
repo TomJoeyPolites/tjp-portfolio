@@ -69,9 +69,9 @@ export const icon = style({
 export const navigation = style({
   position: "absolute",
   top: "0px",
-  left: calc("100vw").multiply(0.04).toString(),
+  left: "100px",
   height: "100vh",
-  width: calc("40vw").subtract(calc("100vw").multiply(0.04)).toString(),
+  width: calc("40vw").subtract(calc("100vw").multiply(0.02)).toString(),
   background: vars.colors.complementary,
   zIndex: "3",
   opacity: "93%",
