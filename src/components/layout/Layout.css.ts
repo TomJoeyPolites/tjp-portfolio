@@ -21,6 +21,7 @@ export const layout = style({
     },
   },
 })
+
 export const navBar = style({
   gridArea: "navBar",
   display: "block",
