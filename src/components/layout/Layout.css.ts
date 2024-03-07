@@ -9,6 +9,7 @@ export const layout = style({
   height: "100%",
   '@media': {
     'screen and (max-width: 875px)': {
+      margin: "0",
       gridTemplateAreas:
       `
       "navBar navBar navBar"
