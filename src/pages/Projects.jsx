@@ -14,7 +14,13 @@ import {
 	FaReact,
 	FaPhp,
 } from "react-icons/fa";
-import { SiExpress } from "react-icons/si";
+import {
+	SiExpress,
+	SiMongodb,
+	SiMongoose,
+	SiNextdotjs,
+	SiSass,
+} from "react-icons/si";
 import { RiJavascriptFill } from "react-icons/ri";
 import { IoLogoFirebase } from "react-icons/io5";
 
@@ -92,6 +98,29 @@ const Projects = () => {
 							<FaPhp className={styles.icon} />
 							<FaHtml5 className={styles.icon} />
 							<FaCss3Alt className={styles.icon} />
+						</div>
+					</div>
+				</a>
+				<a
+					target="_blank"
+					rel="noreferrer"
+					className={styles.project}
+					href="https://asoiaf-tmg-api.vercel.app/">
+					<img className={styles.img} src={allyoucan} alt="ASOIAF-TMG API" />
+					<div>
+						<h3 className={styles.h3}>ASOIAF-TMG API</h3>
+						<p>
+							First project using Next.Js with Sass for the client side and a
+							server side project using MongoDB, Mongoose and express. This
+							project was based on the tabletop miniture game based in the Game
+							of Thrones universe.
+						</p>
+						<div>
+							<SiNextdotjs className={styles.icon} />
+							<SiMongodb className={styles.icon} />
+							<SiExpress className={styles.icon} />
+							<SiMongoose className={styles.icon} />
+							<SiSass className={styles.icon} />
 						</div>
 					</div>
 				</a>
