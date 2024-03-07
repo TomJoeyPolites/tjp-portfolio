@@ -5,7 +5,6 @@ import { FaGithub, FaLinkedin } from "react-icons/fa6";
 import { CiFileOn } from "react-icons/ci";
 
 import * as styles from "./Navbar.css";
-import { ContactForm } from "../../features/ContactForm";
 
 const Navbar = () => {
 	const navigate = useNavigate();
