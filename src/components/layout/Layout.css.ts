@@ -3,16 +3,10 @@ import { calc } from '@vanilla-extract/css-utils';
 import { vars } from '../../styles/theme.css';
 
 export const layout = style({
-  display: "grid",
-  // gridTemplateColumns: "0.25fr 4.75fr",
-  gridTemplateAreas:
-  `
-  "navBar headings headings number"
-  "navBar content content content"
-  "navBar leftArrow space rightArrow"
-  `,
-  gridTemplateRows: "10vh 80vh 10vh",
-  gridTemplateColumns: "80px 10vw 75vw 10vw", 
+  display: "flex",
+  flexDirection: "column",
+  margin: "0 0 0 100px",
+  height: "100%",
   '@media': {
     'screen and (max-width: 875px)': {
       gridTemplateAreas:
@@ -29,6 +23,31 @@ export const layout = style({
 })
 export const navBar = style({
   gridArea: "navBar",
+  display: "block",
+  position: "fixed",
+  top: "0px",
+  left: "0px",
+  minHeight: "100vh",
+  width: "100px",
+  '@media': {
+    'screen and (max-width: 875px)': {
+      minHeight: "7vh",
+      width: "auto",
+      flexDirection: "row",
+      position: "static",
+    },
+  },
+})
+
+export const topSection = style({
+  display: "flex",
+  justifyContent: "space-between"
+})
+
+export const bottomSection = style({
+  display: "flex",
+  flex: "2",
+  justifyContent: "space-between",
 })
 
 export const headings = style({
@@ -75,7 +94,7 @@ export const pageNumber = style({
 
 export const content = style({
   gridArea: "content",
-  margin: "0 5em",
+  margin: "0 5%",
   minHeight: "70vh",
   backgroundColor: vars.colors.primary,
   '@media': {
@@ -83,10 +102,6 @@ export const content = style({
       margin: "0 2em",
     },
   },
-})
-
-export const space = style({
-  gridArea: "space",
 })
 
 export const leftArrow = style({

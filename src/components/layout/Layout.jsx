@@ -1,4 +1,3 @@
-// Layout.js
 import { useEffect, useState } from "react";
 import { Outlet, useNavigate, useLocation } from "react-router-dom";
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa6";
@@ -54,38 +53,45 @@ const Layout = () => {
 	};
 
 	return (
-		<div className={style.layout}>
-			<Navbar className={style.navBar} />
-			<div className={style.content}>
-				<Outlet />
+		<div>
+			<div className={style.navBar}>
+				<Navbar />
 			</div>
-			<div className={style.headings}>
-				<h2>{heading}</h2>
-			</div>
-			<div className={style.pageNumberCircle}>
-				<p className={style.pageNumber}>{pageNum}</p>
-			</div>
-			{leftArrowLink == "null" ? (
-				<div className={style.leftArrow}></div>
-			) : (
-				<div className={style.leftArrow}>
-					<FaArrowLeft
-						className={style.leftArrowIcon}
-						onClick={() => navigateTo(leftArrowLink)}
-					/>
+			<div className={style.layout}>
+				<div className={style.topSection}>
+					<div className={style.headings}>
+						<h2>{heading}</h2>
+					</div>
+					<div className={style.pageNumberCircle}>
+						<p className={style.pageNumber}>{pageNum}</p>
+					</div>
 				</div>
-			)}
-			{rightArrowLink == "null" ? (
-				<div className={style.rightArrow}></div>
-			) : (
-				<div className={style.rightArrow}>
-					<FaArrowRight
-						className={style.rightArrowIcon}
-						onClick={() => navigateTo(rightArrowLink)}
-					/>
+				<div className={style.content}>
+					<Outlet />
 				</div>
-			)}
-			<div className={style.space}></div>
+				<div className={style.bottomSection}>
+					{leftArrowLink == "null" ? (
+						<div className={style.leftArrow}></div>
+					) : (
+						<div className={style.leftArrow}>
+							<FaArrowLeft
+								className={style.leftArrowIcon}
+								onClick={() => navigateTo(leftArrowLink)}
+							/>
+						</div>
+					)}
+					{rightArrowLink == "null" ? (
+						<div className={style.rightArrow}></div>
+					) : (
+						<div className={style.rightArrow}>
+							<FaArrowRight
+								className={style.rightArrowIcon}
+								onClick={() => navigateTo(rightArrowLink)}
+							/>
+						</div>
+					)}
+				</div>
+			</div>
 		</div>
 	);
 };

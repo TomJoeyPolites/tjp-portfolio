@@ -9,13 +9,13 @@ export const navbar = style({
   flexDirection: "column",
   alignItems: "center",
   justifyContent: "space-between",
-  width: "100%",
+  width: "100px",
   backgroundColor: vars.colors.complementary,
-  minHeight: "100%",
+  minHeight: "100vh",
   color: vars.colors.primary,
   '@media': {
     'screen and (max-width: 875px)': {
-      height: "7vh",
+      minHeight: "7vh",
       width: "100vw",
       flexDirection: "row",
     },
