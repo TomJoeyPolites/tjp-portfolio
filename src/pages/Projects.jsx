@@ -5,7 +5,7 @@ import * as styles from "./Projects.css";
 import vivid from "../assets/vivid.webp";
 import tmp from "../assets/tmp.webp";
 import allyoucan from "../assets/allyoucan.webp";
-import asoiaf from "../assets/asoiaf-tmg-api.png";
+import asoiaf from "../assets/asoiaf.png";
 
 import {
 	FaHtml5,

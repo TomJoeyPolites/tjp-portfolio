@@ -11,7 +11,7 @@ export const navbar = style({
   justifyContent: "space-between",
   width: "100%",
   backgroundColor: vars.colors.complementary,
-  minHeight: "100vh",
+  minHeight: "100%",
   color: vars.colors.primary,
   '@media': {
     'screen and (max-width: 875px)': {
