@@ -11,7 +11,7 @@ export const layout = style({
   "navBar content content content"
   "navBar leftArrow space rightArrow"
   `,
-  gridTemplateRows: "10vh 80vh 10vh",
+  gridTemplateRows: "10vh min-content(80vh) 10vh",
   gridTemplateColumns: "80px 10vw 75vw 10vw", 
   '@media': {
     'screen and (max-width: 875px)': {
