@@ -5,6 +5,7 @@ import * as styles from "./Projects.css";
 import vivid from "../assets/vivid.webp";
 import tmp from "../assets/tmp.webp";
 import allyoucan from "../assets/allyoucan.webp";
+import asoiaf from "../assets/asoiaf-tmg-api.png";
 
 import {
 	FaHtml5,
@@ -32,7 +33,8 @@ const Projects = () => {
 					target="_blank"
 					rel="noreferrer"
 					className={styles.project}
-					href="https://tmp-wedding.onrender.com">
+					href="https://tmp-wedding.onrender.com"
+					aria-label="TMP Wedding Website link">
 					<img className={styles.img} src={tmp} alt="TMP Website Image" />{" "}
 					<div>
 						<h3 className={styles.h3}>TMP Wedding</h3>
@@ -54,7 +56,8 @@ const Projects = () => {
 					target="_blank"
 					rel="noreferrer"
 					className={styles.project}
-					href="https://vividfunerals.com.au/">
+					href="https://vividfunerals.com.au/"
+					aria-label="Vivid Funerals link">
 					<img
 						className={styles.img}
 						src={vivid}
@@ -79,7 +82,8 @@ const Projects = () => {
 					target="_blank"
 					rel="noreferrer"
 					className={styles.project}
-					href="https://allyoucantravel.com.au/en/">
+					href="https://allyoucantravel.com.au/en/"
+					aria-label="All you can Travel  link">
 					<img
 						className={styles.img}
 						src={allyoucan}
@@ -105,8 +109,13 @@ const Projects = () => {
 					target="_blank"
 					rel="noreferrer"
 					className={styles.project}
-					href="https://asoiaf-tmg-api.vercel.app/">
-					<img className={styles.img} src={allyoucan} alt="ASOIAF-TMG API" />
+					href="https://asoiaf-tmg-api.vercel.app/"
+					aria-label="A Song of Ice and Fire Tabletop Miniture Game API link">
+					<img
+						className={styles.img}
+						src={asoiaf}
+						alt="ASOIAF-TMG API Website Image"
+					/>
 					<div>
 						<h3 className={styles.h3}>ASOIAF-TMG API</h3>
 						<p>
