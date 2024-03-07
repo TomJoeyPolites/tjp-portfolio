@@ -83,7 +83,7 @@ const Projects = () => {
 					rel="noreferrer"
 					className={styles.project}
 					href="https://allyoucantravel.com.au/en/"
-					aria-label="All you can Travel  link">
+					aria-label="All you can Travel link">
 					<img
 						className={styles.img}
 						src={allyoucan}
@@ -110,7 +110,7 @@ const Projects = () => {
 					rel="noreferrer"
 					className={styles.project}
 					href="https://asoiaf-tmg-api.vercel.app/"
-					aria-label="A Song of Ice and Fire Tabletop Miniture Game API link">
+					aria-label="A Song of Ice and Fire Tabletop Miniature Game API link">
 					<img
 						className={styles.img}
 						src={asoiaf}

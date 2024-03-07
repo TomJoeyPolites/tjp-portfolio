@@ -80,22 +80,33 @@ const Navbar = () => {
 									target="_blank"
 									rel="noreferrer"
 									className={styles.project}
-									href="https://tmp-wedding.onrender.com">
+									href="https://tmp-wedding.onrender.com"
+									aria-label="TMP Wedding Website link">
 									<h3>TMP Wedding</h3>
 								</a>
 								<a
 									target="_blank"
 									rel="noreferrer"
 									className={styles.project}
-									href="https://vividfunerals.com.au/">
+									href="https://vividfunerals.com.au/"
+									aria-label="Vivid Funerals link">
 									<h3>Vivid Funerals</h3>
 								</a>
 								<a
 									target="_blank"
 									rel="noreferrer"
 									className={styles.project}
-									href="https://allyoucantravel.com.au/en/">
+									href="https://allyoucantravel.com.au/en/"
+									aria-label="All you can Travel link">
 									<h3>Allyoucan Travel</h3>
+								</a>
+								<a
+									target="_blank"
+									rel="noreferrer"
+									className={styles.project}
+									href="https://asoiaf-tmg-api.vercel.app/"
+									aria-label="A Song of Ice and Fire Tabletop Miniature Game API link">
+									<h3>ASOIAF-TMG API</h3>
 								</a>
 							</div>
 						</div>
