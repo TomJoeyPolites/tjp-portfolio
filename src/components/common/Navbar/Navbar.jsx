@@ -117,7 +117,6 @@ const Navbar = () => {
 							</h2>
 							<div className={styles.projectLinks}>
 								<h3>ts.polites@gmail.com</h3>
-								<h3>+61 0423 776 594</h3>
 							</div>
 						</div>
 					</div>
