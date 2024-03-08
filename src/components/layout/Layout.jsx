@@ -13,6 +13,7 @@ const Layout = () => {
 	const [heading, setHeading] = useState("");
 
 	const setPage = () => {
+		console.log("setPage");
 		switch (location.pathname) {
 			case "/":
 				setRightArrowLink("about");
@@ -44,6 +45,7 @@ const Layout = () => {
 	};
 
 	useEffect(() => {
+		console.log("useEffect");
 		setPage();
 	}, [location]);
 
