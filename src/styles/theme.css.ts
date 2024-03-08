@@ -43,7 +43,7 @@ import twColors from 'tailwindcss/colors'
     // Semantic tokens
     primary: twColors.white,
     complementary: twColors.black,
-    brand: twColors.purple[800],
+    brand: "CF00FF",
     brandComplementary: twColors.purple[400],
     brandComplementaryLight: twColors.orange[200],
     brandLight: twColors.emerald[400],

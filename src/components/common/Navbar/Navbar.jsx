@@ -56,7 +56,6 @@ const Navbar = () => {
 						aria-label="linkedIn link">
 						<FaLinkedin className={styles.icon} size="45" />
 					</a>
-					<CiFileOn className={styles.icon} size="45" />
 				</div>
 			</div>
 			{openNavigation == true ? (
@@ -96,7 +95,7 @@ const Navbar = () => {
 									target="_blank"
 									rel="noreferrer"
 									className={styles.project}
-									href="https://allyoucantravel.com.au/en/"
+									href="https://allyoucantravel.com.au/zh/"
 									aria-label="All you can Travel link">
 									<h3>Allyoucan Travel</h3>
 								</a>

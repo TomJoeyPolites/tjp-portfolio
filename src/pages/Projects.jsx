@@ -82,7 +82,7 @@ const Projects = () => {
 					target="_blank"
 					rel="noreferrer"
 					className={styles.project}
-					href="https://allyoucantravel.com.au/en/"
+					href="https://allyoucantravel.com.au/zh/"
 					aria-label="All you can Travel link">
 					<img
 						className={styles.img}

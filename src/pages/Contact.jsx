@@ -21,7 +21,6 @@ const Contact = () => {
 					/>
 					<div className={styles.details}>
 						<h3 className="larger">ts.polites@gmail.com</h3>
-						<h3 className="larger">+61 0423 776 594</h3>
 					</div>
 				</div>
 			</div>
