@@ -40,6 +40,10 @@ const Layout = () => {
 				setHeading("WORK WITH ME");
 				break;
 			default:
+				setRightArrowLink("about");
+				setLeftArrowLink("null");
+				setPageNum("00");
+				setHeading("");
 				break;
 		}
 	};
