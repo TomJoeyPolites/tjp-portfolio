@@ -8,7 +8,7 @@ export const layout = style({
   margin: "0 0 0 100px",
   height: "100%",
   '@media': {
-    'screen and (max-width: 875px)': {
+    'screen and (max-width: 955px)': {
       margin: "0 0 0 0",
       gridTemplateAreas:
       `
@@ -32,7 +32,7 @@ export const navBar = style({
   minHeight: "100vh",
   width: "100px",
   '@media': {
-    'screen and (max-width: 875px)': {
+    'screen and (max-width: 955px)': {
       minHeight: "7vh",
       width: "auto",
       flexDirection: "row",
@@ -58,7 +58,7 @@ export const headings = style({
   marginTop: "1em",
   marginLeft: "3em",
   '@media': {
-    'screen and (max-width: 875px)': {
+    'screen and (max-width: 955px)': {
       marginLeft: "1em",
       fontSize: "0.8em"
     },
@@ -76,7 +76,7 @@ export const pageNumberCircle = style({
   marginTop: "1.5em",
   marginRight: "3em",
   '@media': {
-    'screen and (max-width: 875px)': {
+    'screen and (max-width: 955px)': {
       marginTop: "0.8em",
       marginRight: "1em",
     },
@@ -100,7 +100,7 @@ export const content = style({
   minHeight: "70vh",
   backgroundColor: vars.colors.primary,
   '@media': {
-    'screen and (max-width: 875px)': {
+    'screen and (max-width: 955px)': {
       margin: "0 2em",
     },
   },
@@ -112,7 +112,7 @@ export const leftArrow = style({
   marginTop: "1em",
   marginLeft: "3em",
   '@media': {
-    'screen and (max-width: 875px)': {
+    'screen and (max-width: 955px)': {
       marginLeft: "1em",
     },
   },
@@ -125,7 +125,7 @@ export const leftArrowIcon = style({
     cursor: "pointer",
   },
   '@media': {
-    'screen and (max-width: 875px)': {
+    'screen and (max-width: 955px)': {
       height: "30px",
       width: "30px",
     },

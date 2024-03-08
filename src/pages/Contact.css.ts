@@ -36,17 +36,6 @@ export const details = style({
       flexDirection: "column",
       rowGap: "1em"
     },
-    'screen and (max-width: 1110px)': {
-
-    },
-    'screen and (max-width: 875px)': {
-
-    },
-    'screen and (max-width: 605px)': {
-
-    },
-    'screen and (max-width: 380px)': {
-    },
   },
 })
 
@@ -61,17 +50,6 @@ export const profile = style({
   '@media': {
     'screen and (max-width: 1340px)': {
     },
-    'screen and (max-width: 1110px)': {
-
-    },
-    'screen and (max-width: 875px)': {
-
-    },
-    'screen and (max-width: 605px)': {
-
-    },
-    'screen and (max-width: 380px)': {
-    },
   },
 })
 
@@ -81,17 +59,6 @@ export const name = style({
   '@media': {
     'screen and (max-width: 1340px)': {
       fontSize: "2em",
-    },
-    'screen and (max-width: 1110px)': {
-
-    },
-    'screen and (max-width: 875px)': {
-
-    },
-    'screen and (max-width: 605px)': {
-
-    },
-    'screen and (max-width: 380px)': {
     },
   },
 })

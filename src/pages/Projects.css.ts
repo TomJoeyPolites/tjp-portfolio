@@ -37,7 +37,7 @@ export const project = style({
       display: "flex",
       textAlign: "center"
     },
-    'screen and (max-width: 875px)': {
+    'screen and (max-width: 955px)': {
       fontSize: "0.7em"
     },
   },

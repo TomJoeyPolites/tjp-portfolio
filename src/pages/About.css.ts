@@ -15,7 +15,7 @@ export const topSection = style({
       marginTop: "4em",
       gridTemplateColumns: "auto",
     },
-    'screen and (max-width: 875px)': {
+    'screen and (max-width: 955px)': {
       marginTop: "2em",
       height: "100%"
     },
@@ -43,7 +43,7 @@ export const image = style({
     'screen and (max-width: 1110px)': {
       display: "none"
     },
-    'screen and (max-width: 875px)': {
+    'screen and (max-width: 955px)': {
     },
   },
 })

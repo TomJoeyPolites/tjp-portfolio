@@ -14,7 +14,7 @@ export const navbar = style({
   minHeight: "100vh",
   color: vars.colors.primary,
   '@media': {
-    'screen and (max-width: 875px)': {
+    'screen and (max-width: 955px)': {
       minHeight: "7vh",
       width: "100vw",
       flexDirection: "row",
@@ -30,7 +30,7 @@ export const hamburger = style({
         cursor: "pointer",
   },
   '@media': {
-    'screen and (max-width: 875px)': {
+    'screen and (max-width: 955px)': {
       margin: "0.5em 0 0 1em "
     },
   },
@@ -76,7 +76,7 @@ export const navigation = style({
   zIndex: "3",
   opacity: "93%",
   '@media': {
-    'screen and (max-width: 875px)': {
+    'screen and (max-width: 955px)': {
       width: "100%",
       top:"7vh",
       left: "0"
@@ -93,7 +93,7 @@ export const navScreen = style({
   textAlign: "center",
   color: vars.colors.primary,
   '@media': {
-    'screen and (max-width: 875px)': {
+    'screen and (max-width: 955px)': {
       rowGap: "3em"
     },
   },
