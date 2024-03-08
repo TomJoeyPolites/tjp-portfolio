@@ -42,7 +42,7 @@ export const iconLinks = style({
   flexDirection: "inherit",
   marginBottom: "2.5em",
   '@media': {
-    'screen and (max-width: 875px)': {
+    'screen and (max-width: 955px)': {
       display: "flex",
       flexDirection: "row",
       margin: "0 0.5em 0 0"
@@ -58,7 +58,7 @@ export const icon = style({
     cursor: "pointer",
   },
   '@media': {
-    'screen and (max-width: 875px)': {
+    'screen and (max-width: 955px)': {
       margin: "0.5em 0 0 1em"
     },
   },
