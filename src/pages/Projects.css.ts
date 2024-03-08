@@ -3,7 +3,7 @@ import { vars } from '../styles/theme.css';
 
 export const gallery = style({
   display: "grid",
-  gridTemplateColumns: "1fr 1fr 1fr",
+  gridTemplateColumns: "1fr 1fr",
   gap: "4em",
   padding: "2% 0",
   alignItems: "centre",
