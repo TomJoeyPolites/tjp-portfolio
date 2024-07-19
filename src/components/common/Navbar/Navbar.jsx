@@ -52,7 +52,7 @@ const Navbar = () => {
 					<a
 						target="_blank"
 						rel="noreferrer"
-						href="https://www.linkedin.com/in/tom-polites-418318156/"
+						href="https://www.linkedin.com/in/tom-power-418318156/"
 						aria-label="linkedIn link">
 						<FaLinkedin className={styles.icon} size="45" />
 					</a>
