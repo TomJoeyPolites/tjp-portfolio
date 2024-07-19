@@ -13,11 +13,11 @@ const Contact = () => {
 					<ContactForm />
 				</div>
 				<div className={styles.secondSection}>
-					<h2 className={styles.name}>Tom Joey Polites</h2>
+					<h2 className={styles.name}>Tom Joey Power</h2>
 					<img
 						className={styles.profile}
 						src={profile}
-						alt="Tom Joey Polites profile"
+						alt="Tom Joey Power profile"
 					/>
 					<div className={styles.details}>
 						<h3 className="larger">ts.polites@gmail.com</h3>

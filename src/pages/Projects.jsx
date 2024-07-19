@@ -6,6 +6,7 @@ import vivid from "../assets/vivid.webp";
 import tmp from "../assets/tmp.webp";
 import allyoucan from "../assets/allyoucan.webp";
 import asoiaf from "../assets/asoiaf.png";
+import tfwb from "../assets/ftwb.webp";
 
 import {
 	FaHtml5,
@@ -21,14 +22,45 @@ import {
 	SiMongoose,
 	SiNextdotjs,
 	SiSass,
+	SiGooglecloud,
 } from "react-icons/si";
 import { RiJavascriptFill } from "react-icons/ri";
 import { IoLogoFirebase } from "react-icons/io5";
+import { BiLogoTypescript } from "react-icons/bi";
 
 const Projects = () => {
 	return (
 		<div>
 			<div className={styles.gallery}>
+				<a
+					target="_blank"
+					rel="noreferrer"
+					className={styles.project}
+					href="https://ftwb-cda-development.web.app/"
+					aria-label="The Footy with Broden Commentator Data link">
+					<img
+						className={styles.img}
+						src={tfwb}
+						alt="TFWB Commentator Data App Image"
+					/>{" "}
+					<div>
+						<h3 className={styles.h3}>
+							TFWB Commentator Data App - Pre Alpha Build
+						</h3>
+						<p>
+							Web application developed for The Footy with Broden podcast.
+							Currently under development this application was inspired by
+							Broden after mentioning that he would like a way to track what AFL
+							commentators reguarly say during matches.
+						</p>
+						<div>
+							<FaReact className={styles.icon} />
+							<IoLogoFirebase className={styles.icon} />
+							<SiGooglecloud className={styles.icon} />
+							<BiLogoTypescript className={styles.icon} />
+						</div>
+					</div>
+				</a>
 				<a
 					target="_blank"
 					rel="noreferrer"
